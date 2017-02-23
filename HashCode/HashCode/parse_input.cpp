@@ -38,7 +38,7 @@ void parser(Data* ourData)
 
 		for (j = 0; j < ourData->c; j++)
 		{
-			cin >> cache_id_temp >> cache_latancy_temp;
+			
 			ourData->endpoint_data_arr[i].caches_latency[j] = 0;
 		}
 
@@ -50,7 +50,7 @@ void parser(Data* ourData)
 
 	}
 	string req_video_temp, req_endpoint_temp, req_size_temp;
-	
+
 	for (i = 0; i < ourData->r; i++)
 	{
 		cin >> req_video_temp >> req_endpoint_temp >> req_size_temp;
